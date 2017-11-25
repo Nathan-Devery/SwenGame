@@ -1,0 +1,6 @@
+Name: GameLogic
+Description: GameLogic contains the main model methods. Behaviour for interactions
+with player and NPC cars are defined here.
+Primary Author: Huon
+Code Reviewer: Tom
+Tester: Andrija 

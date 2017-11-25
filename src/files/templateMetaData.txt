@@ -1,0 +1,27 @@
+STAGE desert
+CAR{
+ID car1
+POSITION 0,0
+VELOCITY 0,0
+DIRECTION 0
+FUEL 100
+HP 100
+MONEY 0
+}
+NPC{
+
+}
+UNLOCKEDCARS car1
+UNLOCKEDSTAGES desert
+
+
+desert //First entry is stage name
+car1	//Mark car type
+0,0		//Position x,y
+0,0  	//Velocity x,y
+0		//Mark direction
+100		//mark fuel 0-100
+100  	//mark hp	0-100
+0       //mark money
+car1 car2 car3 //Mark unlocked cars
+forest desert snow //Mark unlocked stages

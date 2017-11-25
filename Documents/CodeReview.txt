@@ -1,0 +1,8 @@
+Code Review
+At current the game isn’t in a completely runnable state. This is due to the 2D map from which our game objects are placed not being implemented properly. We have multiple world views of our game in development, we have the same base map but different objects and environments will be loaded on top of the map for different stages of the game.
+
+The design pattern for this project was model-view-controller, MVC, at current our game libraries are in a draft state. These need to be refined, ensuring the libraries are laid out efficiently as possible.
+
+We need to refactor our code slightly to ensure the different components merge well when they are placed on the game map. We have been able to test 4 of the 5 sections of work done by our team mates using unit tests. The objects themselves behave the way we have designed them to, determined by them passing their various tests, but because we have not been able to run the game to test the game it’s hard to determine what further code changes need to occur and what bugs we have missed. 
+
+During the process of testing which we started during our code review large chunks of the background functionality of the code has been changed, but again the lack of the game map being implemented meant it was hard to create all the tests we need. 

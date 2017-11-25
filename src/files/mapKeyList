@@ -1,0 +1,14 @@
+TerrainMap - References
+O = OFFROAD
+R = ROAD
+U = UNREACHABLE
+S = SCENARY
+
+ObjectMap - References
+C = Checkpoint
+E = Bolt
+F = Fence
+R = Rock
+T = Tree
+B = Barrier
+N = Coin

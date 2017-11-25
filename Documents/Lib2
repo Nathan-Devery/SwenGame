@@ -1,0 +1,9 @@
+Name: GameObjects
+
+Description: GameObjects is an interface stating the required behaviour for 
+objects in the game, such as obstacles on the map and cars. This library will
+contain implementations of the interface for the different objects in the game.
+
+Primary Author: Hannah 
+Code Reviewer: Huon
+Tester: Tom

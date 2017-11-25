@@ -1,0 +1,9 @@
+Libraries will be testable in isolation through programming libaries
+to the design by contract paradigm. That is individual methods will be
+tested through testing that return values or changes to internal fields
+are correct, given valid input parameters. Test cases will test that
+exceptions/errors are thrown when the contract is broken(invalid input
+parameters given)
+
+Through testing all individual methods in a class, libraries can be
+verified as to be working.

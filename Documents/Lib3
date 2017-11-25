@@ -1,0 +1,7 @@
+Name: GameMap
+Description: GameMap is a class representing the game map object. Functionality
+will include loading and saving game states, as well as methods for detecting and
+handling collisions between objects on the map.
+Primary Author: Tom
+Code Reviewer: Hannah
+Tester: Nathan

@@ -1,0 +1,13 @@
+Changes:
+
+1) GameMap Representation:
+    The previous implementation of using a single 2d array to represent the game map was not adequate. In its place
+    is two 2d arrays, one representing the terrain/texture files on the map, and another representing objects on the map.
+    This was done as cars interact differently to objects (they pick up, use, collide, etc) than they do to terrain tiles
+    (driving over or colliding with).
+
+2) GameStateClass:
+    The previous implementation of having a model class containing separate cars and a map class was inadequate as loading
+     and saving was done through methods in the map class, which didn't work with cars. To fix this a seperate GameState
+     class has been created holding all the fields necessary for loading and saving the game, with new wrapper classes
+     created for the the GameMap and ObjectMap

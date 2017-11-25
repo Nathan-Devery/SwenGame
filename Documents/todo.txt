@@ -1,0 +1,86 @@
+Libraries:
+
+Hannah to-do:
+- Code review for Huon
+
+Nathan to-do:
+- External test for Huon
+- Code review for Andrijia
+- Your library method Documentation
+- Implement victory screen - complete last stage
+- Implement defeat screen - out of fuel or HP points
+
+Andrijia to-do:
+- External test for Tom
+- Code review for Nathan
+- Your library method Documentation
+
+Huon to-do:
+- Save and load
+- External test for Hannah
+- Code review for Hannah
+- Your library method Documentation
+
+Tom to-do:
+- External test for Nathan
+- Code review for Andrijia
+- Your library method Documentation
+- AI stop it flying into the walls of the game 
+- modelparser - to finish parser and save writer
+
+General: General contains helper methods, defines enums, and contains classes which stich other libraries together such as controller.
+	Primary Author: NA
+	Code Reviewer: NA
+	External Tester: NA
+
+GUI: GUI contains classes defining the view for the MVC.
+	Primary Author: Nathan
+	Code Reviewer: Andrija
+	External Tester: Tom
+
+Main: Contains launcher classes
+	Primary Author: NA
+	Code Reviewer: NA
+	External Tester: NA
+
+Model: Model contains classes defining the "outer layer" of model classes for the MVC.
+	Primary Author: Huon
+	Code Reviewer: Hannah
+	External Tester: Nathan
+
+Model.GameObjects: GameObjects contains classes following the GameObject interface
+	Primary Author: Hannah
+	Code Reviewer: Tom
+	External Tester: Huon
+
+Model.terrain:Terrain contains classes following the Terrain interface
+	Primary Author: Hannah
+	Code Reviewer: Huon
+	External Tester: Nathan
+
+maps: Maps contains classes defining the TerrainMap and ObjectMap, as well a parser for loading and saving.
+	Primary Author: Huon
+	Code Reviewer: Tom
+	External Tester: Andrija
+
+Resources: Resources contains classes for dealing with image assets
+	Primary Author: Andrija
+	Code Reviewer: Nathan
+	External Tester: Hannah
+
+
+To-do list:
+Meet Specification:
+	- Game options:
+		New game - COMPLETE
+		Resume playing - COMPLETE
+		Load and save -TODO
+	- Esc to menu - COMPLETE
+	- Clear start and end - COMPLETE
+	- Can explore the world - COMPLETE
+	- Many entities - COMPLETE
+	- NPC - IN PROGRESS
+
+Testing:
+	Main testing (everyone)
+	External testing (according to the above)

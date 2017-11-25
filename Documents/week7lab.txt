@@ -1,0 +1,57 @@
+1) Objective of game
+	Unlock all stages and reach the summit before a given time. Additionally achieve new high scores
+2) Game look like:
+	Top down adventure in Java Swing GUI
+3) What can players do:
+	Players drive around the stages, collect items, upgrade cars, and choose between stages.
+4) Map representation:
+	Each stage has a different map. A map is a 2D grid containing map objects. 
+5) Player represented
+	The player is a car object which is controlled through mouse and keyboard input
+6) NPC interaction
+	Other cars racing around the track. Other people are throwing obstacles on the track.
+
+
+Responsiblities:
+
+Andrija: 	ImageResources
+		--Library to handle methods to do with Images, such as loading,
+		    stretching/resizing, rendering??
+		Reviewer: Nathan
+		Tester: ??
+
+Hannah: 	GameObjects 
+		--Create classes defining behaviour for different objects on the map.
+		--This includes creating objects, handling collisions of objects, and...
+		Reviewer: Tom
+		Tester: Huon??
+
+Huon:		GameLogic
+        Car:
+        --Create Car class (Car implements GameObject)
+        --Define behaviour for player and AI cars
+        
+        Main Model Class:
+        --Hold GameMap, Cars and other GameObjectts
+        --Run the game
+
+		Reviewer: Nathan
+		Tester:	??
+
+Nathan: 	ViewComponent
+		--Library to display a GUI with different screens for Menu and Game
+		--Render based on gamestate and camera
+		Reviewer: Andrija
+		Tester: ??
+
+Tom:  		GameMap
+        --Create a class to represent the game map
+        --Implement Loading and Saving
+        --Holds 2D array of GameObjects
+		Reviewer: Hannah
+		Tester: ??
+
+Class diagram:
+    https://www.lucidchart.com/invitations/accept/7e426e47-e56b-4c9e-9c06-91f6c390b276
+    -Anyone can edit this
+
